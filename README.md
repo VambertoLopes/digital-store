@@ -1,46 +1,27 @@
-# Getting Started with Create React App
+# 🛍️ Digital Store - Projeto de Front-end
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Este é o projeto final de Front-end desenvolvido para o curso de **Desenvolvimento Web** da Digital College.  
+O objetivo foi aplicar na prática os conhecimentos adquiridos durante o curso, com foco em **React**, **TypeScript** e **Tailwind CSS**.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## 📌 Funcionalidades
 
-### `npm start`
+- Página inicial com navegação clara
+- Listagem de produtos em grid responsivo
+- Visualização detalhada de cada produto
+- Componentes reutilizáveis
+- Estilização baseada no [Figma oficial](https://www.figma.com/design/cfb4F7ZXMFQmvmTn3PKI4z/DRIP-STORE---DIGITAL-COLLEGE?node-id=22-30)
+- Roteamento com React Router DOM
+- Estilo limpo e responsivo com Tailwind CSS
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+---
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+## 🧪 Tecnologias Utilizadas
 
-### `npm test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `npm run build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `npm run eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+- React 19
+- TypeScript
+- React Router DOM 6
+- Tailwind CSS 3
+- Vite (se usado)
+- Node.js / npm
