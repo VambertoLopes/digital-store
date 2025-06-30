@@ -3,21 +3,27 @@ import { Link } from "react-router-dom";
 
 const Navbar: React.FC = () => {
   return (
-    <nav className="bg-blue-600 text-white shadow-md fixed top-0 w-full z-50">
-      <div className="max-w-6xl mx-auto px-4 py-3 flex justify-between items-center">
-        <Link to="/" className="text-xl font-bold hover:text-gray-200 transition">
+    <header className="fixed top-0 left-0 right-0 bg-white shadow-md z-50">
+      <nav className="max-w-7xl mx-auto px-6 py-4 flex justify-between items-center">
+        <Link to="/" className="text-2xl font-bold text-primary tracking-wide">
           Digital Store
         </Link>
-        <div className="space-x-4">
-          <Link to="/" className="hover:text-gray-200 transition">
+        <div className="space-x-6 text-sm font-medium">
+          <Link
+            to="/"
+            className="text-dark-gray-2 hover:text-primary transition"
+          >
             Início
           </Link>
-          <Link to="/produtos" className="hover:text-gray-200 transition">
+          <Link
+            to="/produtos"
+            className="text-dark-gray-2 hover:text-primary transition"
+          >
             Produtos
           </Link>
         </div>
-      </div>
-    </nav>
+      </nav>
+    </header>
   );
 };
 

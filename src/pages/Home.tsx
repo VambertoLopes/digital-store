@@ -3,21 +3,20 @@ import { Link } from "react-router-dom";
 
 const Home: React.FC = () => {
   return (
-    <div className="p-6 min-h-screen flex flex-col justify-center items-center bg-gray-50">
-      <h1 className="text-5xl font-bold text-center mb-12">Bem-vindos</h1>
-      
-      <div className="grid gap-6 w-full max-w-md">
-        <Link
-          to="/produtos"
-          className="bg-white shadow-md hover:shadow-lg rounded-2xl px-6 py-5 text-center text-blue-600 font-semibold text-lg transition"
-        >
-          Ir para Produtos
-        </Link>
+    <div className="p-6 max-w-3xl mx-auto mt-20 text-center">
+      <h1 className="text-4xl font-bold mb-10">Bem-vindos</h1>
+      <div className="grid gap-4 sm:grid-cols-2 justify-center">
         <Link
           to="/produto/1"
-          className="bg-white shadow-md hover:shadow-lg rounded-2xl px-6 py-5 text-center text-blue-600 font-semibold text-lg transition"
+          className="block bg-white shadow-md hover:shadow-xl p-6 rounded-xl text-lg font-semibold"
         >
           Ver Produto
+        </Link>
+        <Link
+          to="/produtos"
+          className="block bg-white shadow-md hover:shadow-xl p-6 rounded-xl text-lg font-semibold"
+        >
+          Ver Lista de Produtos
         </Link>
       </div>
     </div>
