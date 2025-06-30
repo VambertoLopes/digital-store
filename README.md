@@ -23,5 +23,4 @@ O objetivo foi aplicar na prática os conhecimentos adquiridos durante o curso, 
 - TypeScript
 - React Router DOM 6
 - Tailwind CSS 3
-- Vite (se usado)
 - Node.js / npm
